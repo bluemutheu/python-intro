@@ -19,7 +19,7 @@ print(live)
 name = 'umbrella'
 life= 'e' in name
 print(life)
-# question4
+# question8
 a = "I"
 b = " cant"
 c = " wait"
@@ -30,11 +30,11 @@ g = " python"
 h = " programmer"
 z= a+b+c+d+e+f+g+h
 print(z)
-# question5
+# question6
 nice= 'The worlds fastest plane'
 print(nice)
 print(nice[0])
-# question6
+# question5
 alvin= 'my name is dee'
 print(alvin)
 diana= alvin.isupper()
@@ -42,12 +42,15 @@ print(diana)
 # question7
 lex= alvin.islower()
 print(lex)
-# question8
-fname= input("Enter firstname:")
+# question4
+'''fname= input("Enter firstname:")
 sname = input("Enter secondname:")
 surname = input("Enter lastname:")
 node= (fname[0])
 axe= (sname[0])
 load= (surname)
 initials=(node.capitalize()+'.'+axe.capitalize()+'.'+load.capitalize()+'.')
-print(initials)
+print(initials)'''
+
+list9 = [10, 20, 4, 45, 99] 
+print(max(list9))
